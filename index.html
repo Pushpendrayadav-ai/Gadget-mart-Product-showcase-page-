@@ -6,73 +6,125 @@
     <title>Gadget Mart</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="Product">
-            <h1><big>GADGET MART</big></h1>
-            <img src="./gadgetimage.png" height="100" width="130" alt="Gadget image">
-        </div>
-    <input type="text"  placeholder="Search Product">
-    </header>
+<header>
+    <h1>GADGET MART</h1>
 
-    <main>
-        <h2>Browse products</h2>
+    <img src="gadgetimage.png" width="80" alt="Logo">
 
-        <figure class="card">
-            <img src="./headphoneimage.png" height="140" width="170" alt="Boat Headphone">
-            <figcaption class="title">Boat Headphone</figcaption>
+    <br><br>
+
+    <input type="text" placeholder="Search Product">
+</header>
+
+<main>
+
+    <h2>Browse Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="headphoneimage.png" class="cardimg">
+            <h3 class="title">Boat Headphone</h3>
             <p class="price">₹1,499</p>
+
             <ul>
                 <li>Bluetooth 5.0</li>
                 <li>20 Hours Battery</li>
                 <li>Noise Cancellation</li>
-                <li>warranty upto 2 years</li>
+                <li>2 Years Warranty</li>
             </ul>
-        </figure>
+        </div>
 
-        <figure class="card">
-            <img src="./laptopimage.png" height="190" width="220" alt="Laptop">
-            <figcaption class="title">Apple Macbook Air(M5,2026) </figcaption>
+        <div class="card">
+            <img src="laptopimage.png" class="cardimg">
+            <h3 class="title">Apple Macbook Air</h3>
             <p class="price">₹1,10,000</p>
-            <ul>
-                <li>Apple M5</li>
-                <li>16 GB | 512 GB — Smooth gaming and video editing experience</li>
-                <li>13.6 Inch | liquid retina Display — Clear and detailed visuals.</li>
-                <li>1.55 Kg — Easy to carry</li>
-            </ul>
-        </figure>
 
-        <figure class="card">
-            <img src="./speakerimage.png" height="190" width="200" alt="Speaker">
-            <figcaption class="title" >JBL Speaker </figcaption>
+            <ul>
+                <li>Apple M5 Chip</li>
+                <li>16 GB RAM</li>
+                <li>512 GB SSD</li>
+                <li>Retina Display</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="speakerimage.png" class="cardimg">
+            <h3 class="title">JBL Speaker</h3>
             <p class="price">₹3,999</p>
-            <ul>
-                <li>With Bluetooth</li>
-                <li>40 W Power Output</li>
-                <li>Configuration: Mono</li>
-                <li>4 hrs Charging Time</li>
-            </ul>
-        </figure>
 
-        <figure class="card">
-            <img src="./watchimage.png" height="190" width="180" alt="Sonata Watch">
-            <figcaption class="title">Sonata Watch</figcaption>
+            <ul>
+                <li>Bluetooth Speaker</li>
+                <li>40W Output</li>
+                <li>4 Hours Charging</li>
+                <li>Portable Design</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="watchimage.png" class="cardimg">
+            <h3 class="title">Sonata Watch</h3>
             <p class="price">₹7,999</p>
+
             <ul>
-                <li>Formal</li>
-                <li>Diameter: 42 mm</li>
-                <li>Color</li>
                 <li>Water Resistant</li>
+                <li>42 mm Dial</li>
+                <li>Premium Finish</li>
+                <li>Formal Design</li>
             </ul>
-        </figure>
+        </div>
 
-    </main>
+        <div class="card">
+            <img src="Mobile.png" class="cardimg">
+            <h3 class="title">Samsung Galaxy S25</h3>
+            <p class="price">₹74,999</p>
 
-    <footer class="gadget">
-        <p>&copy; 2006 Gadget. All rights reserved.</p>
-        <p>Contact us: <a href="mailto:support@gadget.com">support@gadget.com</a></p>
-    </footer>
+            <ul>
+                <li>12 GB RAM</li>
+                <li>256 GB Storage</li>
+                <li>50 MP Camera</li>
+                <li>5000 mAh Battery</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="earbud.png" class="cardimg">
+            <h3 class="title">Sony Earbuds</h3>
+            <p class="price">₹5,499</p>
+
+            <ul>
+                <li>Noise Cancellation</li>
+                <li>20 Hours Backup</li>
+                <li>Bluetooth 5.3</li>
+                <li>Fast Charging</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <section class="info">
+        <h2>Why Shop With Us?</h2>
+        <ul>
+            <li>Free Delivery</li>
+            <li>Easy Returns</li>
+            <li>Secure Payments</li>
+            <li>24/7 Customer Support</li>
+        </ul>
+    </section>
+
+    <section class="info">
+        <h2>Special Offers</h2>
+        <p>Get up to 50% discount on selected gadgets and accessories.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Gadget Mart | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
